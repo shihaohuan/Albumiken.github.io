@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-list {
+    margin-top: 20px;
+}
+
+.video-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.video-list li {
+    margin: 10px 0;
+}
+/* styles.css */
+.social-links {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+}
+
+.social-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: translateY(-5px); /* Naikkan ikon saat hover */
+}
+
+/* Warna khusus untuk setiap platform */
+.social-links a[href*="facebook"]:hover { color: #1877f2; } /* Facebook */
+.social-links a[href*="twitter"]:hover { color: #1da1f2; } /* Twitter */
+.social-links a[href*="instagram"]:hover { color: #e4405f; } /* Instagram */
+.social-links a[href*="linkedin"]:hover { color: #0a66c2; } /* LinkedIn */
+.social-links a[href*="youtube"]:hover { color: #ff0000; } /* YouTube */
+
+.social-links a:hover {
+    transform: rotate(360deg); /* Putar ikon 360 derajat */
+}
